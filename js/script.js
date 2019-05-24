@@ -1,11 +1,5 @@
 const tabIcons = document.querySelectorAll('.tab-item');
 const tabContentItems = document.querySelectorAll('.tab-content-item');
-const tab1 = document.querySelector('#tab-1');
-const tab2 = document.querySelector('#tab-2');
-const tab3 = document.querySelector('#tab-3');
-const tab1Content = document.querySelector('#tab-1-content');
-const tab2Content = document.querySelector('#tab-2-content');
-const tab3Content = document.querySelector('#tab-3-content');
 
 // listen for tab click
 tabIcons.forEach(tabIcon => tabIcon.addEventListener('click', selectItem));
