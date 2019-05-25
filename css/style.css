@@ -362,27 +362,5 @@ footer li {
     }
 }
 
-@media (max-width: 768px) {
 
-    .showcase::after {
-        box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
-    }
-
-    .lead {
-        font-size: 1.2rem;
-    }
-
-    #tab-1-content .tab-1-content-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    #tab-2-content #tab-2-content-top {
-        display: block;
-
-    }
-
-    #tab-2-content #tab-2-content-bottom {
-        grid-template-columns: 1fr;
-    }
-}
 
